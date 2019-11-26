@@ -1,0 +1,6 @@
+npm install #  - instalation
+npm init  - creating package.json
+npm install # --save  - saving in package.json file.
+npm install # --save-dev  - saving in package.json devDependecies
+npm install # --global  - instalacija na celom kompjuterskom sistemu
+

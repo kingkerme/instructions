@@ -1,10 +1,17 @@
-git init   - instalacija git-a. Sada git prati sve promene u folderu. Samo jednom se pokrece ova komanda.
+INSTALACIJA GITa U RADNOM FOLDERU
+cd #     - dodavanje putanje foldera u git
+git init - instalacija git-a. Sada git prati sve promene u folderu. Samo jednom se pokrece ova komanda.
 
+PUSH FAJLOVA NA  LOCAL-SERVER
 git status - check status
 git add #  - STAGE(izvesti); git add -A  - izvesti sve promene
 git commit -m "*poruka*" - commit(predati)
-git push origin master  - PUSH na server
 
+POVEZIVANJE GITHUBa
+git remote add origin #  - dodavanje adrese github-a
+git push -u origin master  - uploadovanje repo-a na github
+
+SKIDANJE FAJLOVA SA GITHUBa
 git clone #    - skinuti fajlove sa neke web adrese
 git remote -v  - pokazuje na koju adresu ce biti PUSH-ovani fajlovi
 git remote set-url origin #  - promena link adrese na koju ce biti PUSH-ovani fajlovi
