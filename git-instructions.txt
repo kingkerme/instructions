@@ -1,3 +1,7 @@
+GLOBALNA PODEŠAVANJA (NA POCETKU)
+git config --global user.name "#"
+git config --global user.email "#"
+
 INSTALACIJA GITa U RADNOM FOLDERU
 cd #     - dodavanje putanje foldera u git
 git init - instalacija git-a. Sada git prati sve promene u folderu. Samo jednom se pokrece ova komanda.
@@ -16,15 +20,9 @@ git clone #    - skinuti fajlove sa neke web adrese
 git remote -v  - pokazuje na koju adresu ce biti PUSH-ovani fajlovi
 git remote set-url origin #  - promena link adrese na koju ce biti PUSH-ovani fajlovi
 
-git push origin master  - PUSH na server
-
 
 KOMANDE ZA PROVERU
 pwd - print working directory
 cd - change directory
 mkdir "#" - creating new folder
 touch "#" - creating new document
-
-GLOBALNA PODEŠAVANJA (NA POCETKU)
-git config --global user.name "#"
-git config --global user.email "#"
